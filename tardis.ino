@@ -15,7 +15,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   for(int i=0; i<NUMPIXELS; i++) {
-    pixels.setPixelColor(i, pixels.Color(150, 150, 150));
+    pixels.setPixelColor(i, pixels.Color(0, 0, 102));
     pixels.show();
     delay(70);
   }
